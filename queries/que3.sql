@@ -1,0 +1,3 @@
+SELECT travel_agency_branch_travel_agency_branch_id, COUNT(*) AS num_employees
+FROM employees
+GROUP BY travel_agency_branch_travel_agency_branch_id;
